@@ -57,6 +57,24 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
+  # RuboCop command for Spring
+  # https://github.com/toptal/spring-commands-rubocop
+  gem 'spring-commands-rubocop'
+
+  # A Ruby static code analyzer and formatter, based on the community Ruby style guide.
+  # https://docs.rubocop.org
+  # https://github.com/rubocop-hq/rubocop
+  gem 'rubocop', '~> 0.80.0', require: false
+
+  # A RuboCop extension focused on enforcing Rails best practices and coding conventions.
+  # https://github.com/rubocop-hq/rubocop-rails
+  gem 'rubocop-rails'
+
+  # An extension of RuboCop focused on code performance checks.
+  # https://github.com/rubocop-hq/rubocop-performance
+  gem 'rubocop-performance'
+
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
